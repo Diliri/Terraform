@@ -12,8 +12,8 @@ function apache_with_jenkins_master(){
       
     #Update your local package index, then finally install Jenkins:
     sudo apt-get update
-    sudo apt-get install fontconfig openjdk-17-jre
-    sudo apt-get install jenkins
+    sudo apt-get install fontconfig openjdk-17-jre -y
+    sudo apt-get install jenkins -y
     
     
     # Install Apache2 if not already installed
