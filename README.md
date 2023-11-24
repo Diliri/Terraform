@@ -23,8 +23,7 @@ ls
 sudo dpkg -i *назва файлу, наприклад, code_1.84.2-1699528352_amd64.deb*
 ```
 відкриваємо VS Code  
-```
-code```
+```code```
 відкриваємо термінал
 ```cd ../../..
 mkdir my-terraform
