@@ -1,7 +1,6 @@
 # Terraform
 ## Home tasks from courses  
-Встановлюємо на Linux у терміналі [Terraform](https://www.terraform.io/) або з цього [сайту]
-(https://developer.hashicorp.com/terraform/install?product_intent=terraform)
+Встановлюємо на Linux у терміналі [Terraform](https://www.terraform.io/) або з цього [сайту](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
 
 ```
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
@@ -23,11 +22,12 @@ clear
 ls
 sudo dpkg -i *назва файлу, наприклад, code_1.84.2-1699528352_amd64.deb*
 ```
-відкриваємо VS Code
+відкриваємо VS Code  
 ```code```
 відкриваємо термінал
 ```cd ../../..
-mkdir my-terraform```
+mkdir my-terraform
+```
 
 відкриваємо цю папку у VS Code, попередньо встановивши необхідні плагіни (terraform , наприклад)
 створюємо файл lesson-1.tf
