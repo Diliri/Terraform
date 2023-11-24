@@ -31,3 +31,20 @@ mkdir my-terraform
 
 відкриваємо цю папку у VS Code, попередньо встановивши необхідні плагіни (terraform , наприклад)
 створюємо файл lesson-1.tf
+
+
+Пишемо у терміналі:
+```
+# version 1.15.58
+# sudo snap install aws-cli
+
+# version 1.22.34-1
+sudo apt install awscli -y
+# вводимо пароль
+
+aws configure
+# вводимо AWS Access Key ID
+# для цього заходимо на AWS account IAM > Users > Diana_Muzhylivska > Security Credentials (вгорі справа) > Create Access Key > Use Case "Command Line Interface (CLI)
+# галочка біля "I understand the above reccomendation..."
+# Description Tag Value "demo-aws-cli"
+```
