@@ -44,7 +44,7 @@ function apache_with_jenkins_master(){
     
     echo "Jenkins installation with Apache2 proxy completed. Access Jenkins at http://your-domain.com"
     
-    sudo systemctl reload apache2
+    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 }
 
 apache_with_jenkins_master
