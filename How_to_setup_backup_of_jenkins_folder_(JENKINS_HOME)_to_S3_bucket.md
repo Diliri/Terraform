@@ -2,12 +2,12 @@ Setting up a backup of the Jenkins home directory **(JENKINS_HOME)** to an S3 bu
 Here's a basic approach using the AWS Command Line Interface (CLI) and a simple script:
 __Prerequisites:__  
 
-    1. __AWS CLI:__  
-    Ensure that you have the AWS CLI installed on the machine where Jenkins is running.  
-    You can follow the instructions in the [official AWS CLI documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) to install and configure the CLI.
+1. __AWS CLI:__  
+Ensure that you have the AWS CLI installed on the machine where Jenkins is running.  
+You can follow the instructions in the [official AWS CLI documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) to install and configure the CLI.
 
-    2. __AWS S3 Bucket:__  
-    Create an S3 bucket where you want to store the Jenkins backups.
+2. __AWS S3 Bucket:__  
+Create an S3 bucket where you want to store the Jenkins backups.
 
 __Backup Script:__  
 
@@ -57,10 +57,10 @@ Add a line to run the backup script, for example, every day at midnight:
 Save and exit the editor.
 __Important Notes:__
 
-    - Ensure that the Jenkins process is stopped or paused during the backup to prevent potential issues  
-    with data consistency.
-    - Adjust the script and paths according to your Jenkins setup.
-    - Regularly test the backup and restore process to ensure data integrity.
+- Ensure that the Jenkins process is stopped or paused during the backup to prevent potential issues  
+  with data consistency.
+- Adjust the script and paths according to your Jenkins setup.
+- Regularly test the backup and restore process to ensure data integrity.
 
 This is a basic example, and depending on your Jenkins setup and requirements,  
 you may need to customize the script further.  
